@@ -1,0 +1,733 @@
+{
+  "figure": "figS_beyond_shopping",
+  "title": "Familiar names favour slightly worse alternatives beyond shopping",
+  "generated_by": "analysis/generate_figS_beyond_shopping.py",
+  "measure": "difference in percentage points, the rate with names shown minus the rate with names hidden; intervals are Wilson 95 per cent on each rate and Newcombe 95 per cent on the difference",
+  "any_provisional": true,
+  "pending_files": [
+    {
+      "file": "additional-comparisons/identical_options_neutral_matched.csv",
+      "exists": true,
+      "wanted": "rows for all eight decision categories in both naming conditions"
+    },
+    {
+      "file": "additional-comparisons/pilot_soft.csv",
+      "exists": false,
+      "wanted": "the open-request comparison; the script adds a fifth panel by itself once the file has both naming conditions across two or more decision categories"
+    }
+  ],
+  "levels": [
+    {
+      "key": "decided",
+      "title": "One option clearly meets the requirements",
+      "source_file": "additional-comparisons/hospitals_hiring_products.csv",
+      "filter": "rows with a chosen letter and an empty error column; the familiar pick is non_optimal == '1' (the model left the option that is best on every stated criterion and cheapest); names shown is blind == '0', names hidden is blind == '1'",
+      "measure": "the model leaves the option that meets every stated requirement",
+      "provisional": false,
+      "provisional_reason": "",
+      "pooled": {
+        "named": {
+          "count": 1,
+          "n": 180,
+          "rate_pct": 0.56,
+          "ci_lo_pct": 0.1,
+          "ci_hi_pct": 3.08
+        },
+        "blind": {
+          "count": 0,
+          "n": 180,
+          "rate_pct": 0.0,
+          "ci_lo_pct": 0.0,
+          "ci_hi_pct": 2.09
+        },
+        "difference_pp": 0.56,
+        "difference_ci_pp": [
+          -1.58,
+          3.08
+        ],
+        "label": "Pooled",
+        "note": "pooled over the consequential kinds only; the product tables are the control that shows the harness is alive"
+      },
+      "groups": [
+        {
+          "named": {
+            "count": 1,
+            "n": 90,
+            "rate_pct": 1.11,
+            "ci_lo_pct": 0.2,
+            "ci_hi_pct": 6.03
+          },
+          "blind": {
+            "count": 0,
+            "n": 90,
+            "rate_pct": 0.0,
+            "ci_lo_pct": 0.0,
+            "ci_hi_pct": 4.09
+          },
+          "difference_pp": 1.11,
+          "difference_ci_pp": [
+            -3.08,
+            6.03
+          ],
+          "key": "hospitals",
+          "label": "Hospital referral",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 0,
+            "n": 90,
+            "rate_pct": 0.0,
+            "ci_lo_pct": 0.0,
+            "ci_hi_pct": 4.09
+          },
+          "blind": {
+            "count": 0,
+            "n": 90,
+            "rate_pct": 0.0,
+            "ci_lo_pct": 0.0,
+            "ci_hi_pct": 4.09
+          },
+          "difference_pp": 0.0,
+          "difference_ci_pp": [
+            -4.09,
+            4.09
+          ],
+          "key": "candidates",
+          "label": "Hiring",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 37,
+            "n": 180,
+            "rate_pct": 20.56,
+            "ci_lo_pct": 15.3,
+            "ci_hi_pct": 27.04
+          },
+          "blind": {
+            "count": 15,
+            "n": 179,
+            "rate_pct": 8.38,
+            "ci_lo_pct": 5.14,
+            "ci_hi_pct": 13.36
+          },
+          "difference_pp": 12.18,
+          "difference_ci_pp": [
+            4.93,
+            19.43
+          ],
+          "key": "products",
+          "label": "Consumer products",
+          "control": true
+        }
+      ]
+    },
+    {
+      "key": "one_unit",
+      "title": "A familiar option is slightly worse",
+      "source_file": "additional-comparisons/slightly_worse_eight_categories.csv",
+      "filter": "rows with a chosen letter and an empty error column; the pick is tie_pick == 'famous' (the familiar option was chosen); names shown is blind == '0', names hidden is blind == '1'",
+      "measure": "the familiar option is chosen",
+      "provisional": false,
+      "provisional_reason": "",
+      "pooled": {
+        "named": {
+          "count": 146,
+          "n": 716,
+          "rate_pct": 20.39,
+          "ci_lo_pct": 17.6,
+          "ci_hi_pct": 23.5
+        },
+        "blind": {
+          "count": 56,
+          "n": 719,
+          "rate_pct": 7.79,
+          "ci_lo_pct": 6.05,
+          "ci_hi_pct": 9.98
+        },
+        "difference_pp": 12.6,
+        "difference_ci_pp": [
+          9.06,
+          16.16
+        ],
+        "label": "Pooled",
+        "note": ""
+      },
+      "groups": [
+        {
+          "named": {
+            "count": 33,
+            "n": 89,
+            "rate_pct": 37.08,
+            "ci_lo_pct": 27.77,
+            "ci_hi_pct": 47.45
+          },
+          "blind": {
+            "count": 11,
+            "n": 89,
+            "rate_pct": 12.36,
+            "ci_lo_pct": 7.04,
+            "ci_hi_pct": 20.79
+          },
+          "difference_pp": 24.72,
+          "difference_ci_pp": [
+            12.16,
+            36.38
+          ],
+          "key": "airlines_near",
+          "label": "Airlines",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 38,
+            "n": 90,
+            "rate_pct": 42.22,
+            "ci_lo_pct": 32.54,
+            "ci_hi_pct": 52.54
+          },
+          "blind": {
+            "count": 16,
+            "n": 90,
+            "rate_pct": 17.78,
+            "ci_lo_pct": 11.25,
+            "ci_hi_pct": 26.94
+          },
+          "difference_pp": 24.44,
+          "difference_ci_pp": [
+            11.11,
+            36.65
+          ],
+          "key": "candidates_near",
+          "label": "Hiring",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 5,
+            "n": 90,
+            "rate_pct": 5.56,
+            "ci_lo_pct": 2.4,
+            "ci_hi_pct": 12.35
+          },
+          "blind": {
+            "count": 0,
+            "n": 90,
+            "rate_pct": 0.0,
+            "ci_lo_pct": 0.0,
+            "ci_hi_pct": 4.09
+          },
+          "difference_pp": 5.56,
+          "difference_ci_pp": [
+            0.38,
+            12.35
+          ],
+          "key": "credit_cards_near",
+          "label": "Credit cards",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 24,
+            "n": 90,
+            "rate_pct": 26.67,
+            "ci_lo_pct": 18.62,
+            "ci_hi_pct": 36.62
+          },
+          "blind": {
+            "count": 10,
+            "n": 90,
+            "rate_pct": 11.11,
+            "ci_lo_pct": 6.15,
+            "ci_hi_pct": 19.26
+          },
+          "difference_pp": 15.56,
+          "difference_ci_pp": [
+            4.11,
+            26.68
+          ],
+          "key": "hospitals_near",
+          "label": "Hospital referral",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 6,
+            "n": 87,
+            "rate_pct": 6.9,
+            "ci_lo_pct": 3.2,
+            "ci_hi_pct": 14.24
+          },
+          "blind": {
+            "count": 1,
+            "n": 90,
+            "rate_pct": 1.11,
+            "ci_lo_pct": 0.2,
+            "ci_hi_pct": 6.03
+          },
+          "difference_pp": 5.79,
+          "difference_ci_pp": [
+            -0.37,
+            13.19
+          ],
+          "key": "index_funds_near",
+          "label": "Index funds",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 18,
+            "n": 90,
+            "rate_pct": 20.0,
+            "ci_lo_pct": 13.04,
+            "ci_hi_pct": 29.41
+          },
+          "blind": {
+            "count": 2,
+            "n": 90,
+            "rate_pct": 2.22,
+            "ci_lo_pct": 0.61,
+            "ci_hi_pct": 7.74
+          },
+          "difference_pp": 17.78,
+          "difference_ci_pp": [
+            8.89,
+            27.33
+          ],
+          "key": "lab_equipment_near",
+          "label": "Lab equipment",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 10,
+            "n": 90,
+            "rate_pct": 11.11,
+            "ci_lo_pct": 6.15,
+            "ci_hi_pct": 19.26
+          },
+          "blind": {
+            "count": 8,
+            "n": 90,
+            "rate_pct": 8.89,
+            "ci_lo_pct": 4.57,
+            "ci_hi_pct": 16.57
+          },
+          "difference_pp": 2.22,
+          "difference_ci_pp": [
+            -6.92,
+            11.44
+          ],
+          "key": "medical_devices_near",
+          "label": "Medical devices",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 12,
+            "n": 90,
+            "rate_pct": 13.33,
+            "ci_lo_pct": 7.79,
+            "ci_hi_pct": 21.87
+          },
+          "blind": {
+            "count": 8,
+            "n": 90,
+            "rate_pct": 8.89,
+            "ci_lo_pct": 4.57,
+            "ci_hi_pct": 16.57
+          },
+          "difference_pp": 4.44,
+          "difference_ci_pp": [
+            -5.03,
+            14.01
+          ],
+          "key": "mortgages_near",
+          "label": "Mortgages",
+          "control": false
+        }
+      ]
+    },
+    {
+      "key": "identical_deposited",
+      "title": "Identical attributes, shopping-assistant instruction",
+      "source_file": "additional-comparisons/identical_options_shopping.csv",
+      "filter": "rows with a chosen letter and an empty error column; the pick is tie_pick == 'famous' (the familiar option was chosen); names shown is blind == '0', names hidden is blind == '1'",
+      "measure": "the familiar option is chosen",
+      "provisional": false,
+      "provisional_reason": "",
+      "pooled": {
+        "named": {
+          "count": 424,
+          "n": 540,
+          "rate_pct": 78.52,
+          "ci_lo_pct": 74.86,
+          "ci_hi_pct": 81.77
+        },
+        "blind": {
+          "count": 264,
+          "n": 540,
+          "rate_pct": 48.89,
+          "ci_lo_pct": 44.7,
+          "ci_hi_pct": 53.1
+        },
+        "difference_pp": 29.63,
+        "difference_ci_pp": [
+          24.05,
+          34.94
+        ],
+        "label": "Pooled",
+        "note": ""
+      },
+      "groups": [
+        {
+          "named": {
+            "count": 70,
+            "n": 90,
+            "rate_pct": 77.78,
+            "ci_lo_pct": 68.15,
+            "ci_hi_pct": 85.13
+          },
+          "blind": {
+            "count": 40,
+            "n": 90,
+            "rate_pct": 44.44,
+            "ci_lo_pct": 34.62,
+            "ci_hi_pct": 54.73
+          },
+          "difference_pp": 33.34,
+          "difference_ci_pp": [
+            19.25,
+            45.61
+          ],
+          "key": "airlines_tie",
+          "label": "Airlines",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 63,
+            "n": 90,
+            "rate_pct": 70.0,
+            "ci_lo_pct": 59.87,
+            "ci_hi_pct": 78.49
+          },
+          "blind": {
+            "count": 47,
+            "n": 90,
+            "rate_pct": 52.22,
+            "ci_lo_pct": 42.02,
+            "ci_hi_pct": 62.24
+          },
+          "difference_pp": 17.78,
+          "difference_ci_pp": [
+            3.53,
+            31.05
+          ],
+          "key": "credit_cards_tie",
+          "label": "Credit cards",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 77,
+            "n": 90,
+            "rate_pct": 85.56,
+            "ci_lo_pct": 76.84,
+            "ci_hi_pct": 91.36
+          },
+          "blind": {
+            "count": 40,
+            "n": 90,
+            "rate_pct": 44.44,
+            "ci_lo_pct": 34.62,
+            "ci_hi_pct": 54.73
+          },
+          "difference_pp": 41.12,
+          "difference_ci_pp": [
+            27.63,
+            52.53
+          ],
+          "key": "index_funds_tie",
+          "label": "Index funds",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 76,
+            "n": 90,
+            "rate_pct": 84.44,
+            "ci_lo_pct": 75.57,
+            "ci_hi_pct": 90.5
+          },
+          "blind": {
+            "count": 47,
+            "n": 90,
+            "rate_pct": 52.22,
+            "ci_lo_pct": 42.02,
+            "ci_hi_pct": 62.24
+          },
+          "difference_pp": 32.22,
+          "difference_ci_pp": [
+            18.84,
+            44.08
+          ],
+          "key": "lab_equipment_tie",
+          "label": "Lab equipment",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 64,
+            "n": 90,
+            "rate_pct": 71.11,
+            "ci_lo_pct": 61.04,
+            "ci_hi_pct": 79.46
+          },
+          "blind": {
+            "count": 47,
+            "n": 90,
+            "rate_pct": 52.22,
+            "ci_lo_pct": 42.02,
+            "ci_hi_pct": 62.24
+          },
+          "difference_pp": 18.89,
+          "difference_ci_pp": [
+            4.68,
+            32.07
+          ],
+          "key": "medical_devices_tie",
+          "label": "Medical devices",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 74,
+            "n": 90,
+            "rate_pct": 82.22,
+            "ci_lo_pct": 73.06,
+            "ci_hi_pct": 88.75
+          },
+          "blind": {
+            "count": 43,
+            "n": 90,
+            "rate_pct": 47.78,
+            "ci_lo_pct": 37.76,
+            "ci_hi_pct": 57.98
+          },
+          "difference_pp": 34.44,
+          "difference_ci_pp": [
+            20.73,
+            46.4
+          ],
+          "key": "mortgages_tie",
+          "label": "Mortgages",
+          "control": false
+        }
+      ]
+    },
+    {
+      "key": "builder_tie",
+      "title": "Identical attributes, neutral instruction",
+      "source_file": "additional-comparisons/identical_options_neutral_matched.csv",
+      "filter": "rows with a chosen letter and an empty error column, level == 'baseline'; the pick is tie_pick == 'famous' (the familiar option was chosen); names shown is blind == '0', names hidden is blind == '1'",
+      "measure": "the familiar option is chosen",
+      "provisional": true,
+      "provisional_reason": "the neutral-instruction experiment covers seven decision categories; the statement about consequences is the same in both naming conditions and display orders were drawn independently, so rates compare on average",
+      "pooled": {
+        "named": {
+          "count": 451,
+          "n": 837,
+          "rate_pct": 53.88,
+          "ci_lo_pct": 50.5,
+          "ci_hi_pct": 57.23
+        },
+        "blind": {
+          "count": 412,
+          "n": 836,
+          "rate_pct": 49.28,
+          "ci_lo_pct": 45.9,
+          "ci_hi_pct": 52.67
+        },
+        "difference_pp": 4.6,
+        "difference_ci_pp": [
+          -0.19,
+          9.36
+        ],
+        "label": "Pooled",
+        "note": ""
+      },
+      "groups": [
+        {
+          "named": {
+            "count": 77,
+            "n": 126,
+            "rate_pct": 61.11,
+            "ci_lo_pct": 52.39,
+            "ci_hi_pct": 69.17
+          },
+          "blind": {
+            "count": 70,
+            "n": 126,
+            "rate_pct": 55.56,
+            "ci_lo_pct": 46.84,
+            "ci_hi_pct": 63.94
+          },
+          "difference_pp": 5.55,
+          "difference_ci_pp": [
+            -6.54,
+            17.43
+          ],
+          "key": "agent_tool_choice",
+          "label": "Agent tool choice",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 60,
+            "n": 126,
+            "rate_pct": 47.62,
+            "ci_lo_pct": 39.1,
+            "ci_hi_pct": 56.28
+          },
+          "blind": {
+            "count": 57,
+            "n": 126,
+            "rate_pct": 45.24,
+            "ci_lo_pct": 36.82,
+            "ci_hi_pct": 53.94
+          },
+          "difference_pp": 2.38,
+          "difference_ci_pp": [
+            -9.8,
+            14.46
+          ],
+          "key": "college_choice",
+          "label": "College choice",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 70,
+            "n": 126,
+            "rate_pct": 55.56,
+            "ci_lo_pct": 46.84,
+            "ci_hi_pct": 63.94
+          },
+          "blind": {
+            "count": 57,
+            "n": 126,
+            "rate_pct": 45.24,
+            "ci_lo_pct": 36.82,
+            "ci_hi_pct": 53.94
+          },
+          "difference_pp": 10.32,
+          "difference_ci_pp": [
+            -2.0,
+            22.2
+          ],
+          "key": "consumer_lending",
+          "label": "Consumer lending",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 57,
+            "n": 126,
+            "rate_pct": 45.24,
+            "ci_lo_pct": 36.82,
+            "ci_hi_pct": 53.94
+          },
+          "blind": {
+            "count": 66,
+            "n": 126,
+            "rate_pct": 52.38,
+            "ci_lo_pct": 43.72,
+            "ci_hi_pct": 60.9
+          },
+          "difference_pp": -7.14,
+          "difference_ci_pp": [
+            -19.12,
+            5.14
+          ],
+          "key": "grant_funding",
+          "label": "Grant funding",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 71,
+            "n": 126,
+            "rate_pct": 56.35,
+            "ci_lo_pct": 47.63,
+            "ci_hi_pct": 64.69
+          },
+          "blind": {
+            "count": 64,
+            "n": 126,
+            "rate_pct": 50.79,
+            "ci_lo_pct": 42.17,
+            "ci_hi_pct": 59.37
+          },
+          "difference_pp": 5.56,
+          "difference_ci_pp": [
+            -6.68,
+            17.56
+          ],
+          "key": "hiring",
+          "label": "Hiring",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 70,
+            "n": 126,
+            "rate_pct": 55.56,
+            "ci_lo_pct": 46.84,
+            "ci_hi_pct": 63.94
+          },
+          "blind": {
+            "count": 56,
+            "n": 126,
+            "rate_pct": 44.44,
+            "ci_lo_pct": 36.06,
+            "ci_hi_pct": 53.16
+          },
+          "difference_pp": 11.12,
+          "difference_ci_pp": [
+            -1.21,
+            22.97
+          ],
+          "key": "hospital_referral",
+          "label": "Hospital referral",
+          "control": false
+        },
+        {
+          "named": {
+            "count": 46,
+            "n": 81,
+            "rate_pct": 56.79,
+            "ci_lo_pct": 45.94,
+            "ci_hi_pct": 67.03
+          },
+          "blind": {
+            "count": 42,
+            "n": 80,
+            "rate_pct": 52.5,
+            "ci_lo_pct": 41.7,
+            "ci_hi_pct": 63.08
+          },
+          "difference_pp": 4.29,
+          "difference_ci_pp": [
+            -10.86,
+            19.17
+          ],
+          "key": "lab_supplier",
+          "label": "Lab supplier",
+          "control": false
+        }
+      ]
+    }
+  ]
+}

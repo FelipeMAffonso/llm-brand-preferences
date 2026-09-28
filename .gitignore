@@ -1,0 +1,23 @@
+# The product dataset and its 18-model subset are downloaded from Zenodo, not tracked
+data/spec_resistance_EXTENDED.csv
+data/spec_resistance_CLEAN.csv
+
+# Outputs written when the scripts are run
+logs/
+analysis/output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# API keys
+.env
+config/.env
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

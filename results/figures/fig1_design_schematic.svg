@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 648"
+     width="700" height="648" style="font-family:Helvetica,Arial,sans-serif;">
+<rect width="700" height="648" fill="#ffffff"/>
+<rect x="8" y="12" width="310" height="130" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="18" y="28" font-size="10" font-weight="bold" fill="#1a1a1a">Product assortment (example)</text>
+<line x1="18" y1="34" x2="308" y2="34" stroke="#e5e7eb" stroke-width="0.6"/>
+<text x="133" y="47" font-size="7.5" fill="#6b7280">Display</text>
+<text x="186" y="47" font-size="7.5" fill="#6b7280">Battery</text>
+<text x="226" y="47" font-size="7.5" fill="#6b7280">Price</text>
+<text x="308" y="47" text-anchor="end" font-size="7.5" fill="#6b7280">Utility</text>
+<rect x="15" y="51.5" width="296" height="13" rx="2" fill="#f3f4f6"/>
+<text x="18" y="61.0" font-size="8.5" fill="#1a1a1a" font-weight="bold">A  Zentria CoreBook*</text>
+<text x="133" y="61.0" font-size="8" fill="#1a1a1a">2.8K OLED</text>
+<text x="186" y="61.0" font-size="8" fill="#1a1a1a">12h</text>
+<text x="226" y="61.0" font-size="8" fill="#1a1a1a">$480</text>
+<text x="308" y="61.0" text-anchor="end" font-size="8.5" fill="#1a1a1a" font-weight="bold">0.6411</text>
+<text x="18" y="73.5" font-size="8.5" fill="#1a1a1a" font-weight="normal">B  Acer Aspire 5 A515</text>
+<text x="133" y="73.5" font-size="8" fill="#1a1a1a">FHD IPS</text>
+<text x="186" y="73.5" font-size="8" fill="#1a1a1a">8h</text>
+<text x="226" y="73.5" font-size="8" fill="#1a1a1a">$580</text>
+<text x="308" y="73.5" text-anchor="end" font-size="8.5" fill="#1a1a1a" font-weight="normal">0.4989</text>
+<text x="18" y="86.0" font-size="8.5" fill="#1a1a1a" font-weight="normal">C  ASUS VivoBook 15</text>
+<text x="133" y="86.0" font-size="8" fill="#1a1a1a">FHD OLED</text>
+<text x="186" y="86.0" font-size="8" fill="#1a1a1a">7h</text>
+<text x="226" y="86.0" font-size="8" fill="#1a1a1a">$680</text>
+<text x="308" y="86.0" text-anchor="end" font-size="8.5" fill="#1a1a1a" font-weight="normal">0.4566</text>
+<text x="18" y="98.5" font-size="8.5" fill="#1a1a1a" font-weight="normal">D  Dell Inspiron 15</text>
+<text x="133" y="98.5" font-size="8" fill="#1a1a1a">FHD</text>
+<text x="186" y="98.5" font-size="8" fill="#1a1a1a">6h</text>
+<text x="226" y="98.5" font-size="8" fill="#1a1a1a">$700</text>
+<text x="308" y="98.5" text-anchor="end" font-size="8.5" fill="#1a1a1a" font-weight="normal">0.3741</text>
+<text x="18" y="111.0" font-size="8.5" fill="#1a1a1a" font-weight="normal">E  HP Pavilion 15</text>
+<text x="133" y="111.0" font-size="8" fill="#1a1a1a">FHD</text>
+<text x="186" y="111.0" font-size="8" fill="#1a1a1a">7h</text>
+<text x="226" y="111.0" font-size="8" fill="#1a1a1a">$730</text>
+<text x="308" y="111.0" text-anchor="end" font-size="8.5" fill="#1a1a1a" font-weight="normal">0.3705</text>
+<text x="18" y="124" font-size="7" fill="#6b7280">Utility is computed by the researcher and never shown to the model.</text>
+<text x="18" y="135" font-size="7" fill="#6b7280">*Fictional brand with the highest utility score. 34 assortments, 20 categories</text>
+<rect x="8" y="158" width="310" height="130" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="18" y="174" font-size="10" font-weight="bold" fill="#1a1a1a">Request conditions</text>
+<text x="308" y="174" text-anchor="end" font-size="8" fill="#6b7280">(32 conditions)</text>
+<line x1="18" y1="180" x2="308" y2="180" stroke="#e5e7eb" stroke-width="0.6"/>
+<text x="18" y="202" font-size="8" font-weight="bold" fill="#1a1a1a">Requests:</text>
+<rect x="70" y="191" width="64" height="16" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="102" y="202" text-anchor="middle" font-size="7" fill="#4b5563">Open request</text>
+<rect x="139" y="191" width="68" height="16" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="173" y="202" text-anchor="middle" font-size="7" fill="#4b5563">Vague request</text>
+<rect x="212" y="191" width="93" height="16" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="258" y="202" text-anchor="middle" font-size="7" fill="#4b5563">Priorities in order</text>
+<text x="18" y="224" font-size="8" font-weight="bold" fill="#1a1a1a">Also:</text>
+<rect x="70" y="213" width="89" height="16" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="114" y="224" text-anchor="middle" font-size="7" fill="#4b5563">Exact requirements</text>
+<rect x="164" y="213" width="77" height="16" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="202" y="224" text-anchor="middle" font-size="7" fill="#4b5563">Brand ruled out</text>
+<text x="18" y="246" font-size="8" font-weight="bold" fill="#1a1a1a">Brands:</text>
+<rect x="70" y="235" width="60" height="16" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="100" y="246" text-anchor="middle" font-size="7" fill="#4b5563">Names shown</text>
+<rect x="135" y="235" width="64" height="16" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="167" y="246" text-anchor="middle" font-size="7" fill="#4b5563">Names hidden</text>
+<text x="18" y="268" font-size="8" font-weight="bold" fill="#1a1a1a">Checks:</text>
+<rect x="70" y="257" width="93" height="16" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="116" y="268" text-anchor="middle" font-size="7" fill="#4b5563">Descriptions removed</text>
+<rect x="168" y="257" width="63" height="16" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="199" y="268" text-anchor="middle" font-size="7" fill="#4b5563">Price changed</text>
+<rect x="236" y="257" width="72" height="16" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="272" y="268" text-anchor="middle" font-size="7" fill="#4b5563">Scores supplied</text>
+<rect x="8" y="304" width="310" height="180" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="18" y="320" font-size="10" font-weight="bold" fill="#1a1a1a">Large language models</text>
+<text x="308" y="320" text-anchor="end" font-size="8" fill="#6b7280">(30 models, 7 developers)</text>
+<line x1="18" y1="326" x2="308" y2="326" stroke="#e5e7eb" stroke-width="0.6"/>
+<text x="18" y="347" font-size="8" font-weight="bold" fill="#1a1a1a">Anthropic:</text>
+<rect x="78" y="336" width="55" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="105" y="346" text-anchor="middle" font-size="7.5" fill="#4b5563">Haiku 4.5</text>
+<rect x="136" y="336" width="60" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="166" y="346" text-anchor="middle" font-size="7.5" fill="#4b5563">Sonnet 4.6</text>
+<rect x="199" y="336" width="50" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="224" y="346" text-anchor="middle" font-size="7.5" fill="#4b5563">Opus 4.6</text>
+<rect x="252" y="336" width="50" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="277" y="346" text-anchor="middle" font-size="7.5" fill="#4b5563">Opus 4.7</text>
+<text x="18" y="367" font-size="8" font-weight="bold" fill="#1a1a1a">OpenAI:</text>
+<rect x="78" y="356" width="40" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="98" y="366" text-anchor="middle" font-size="7.5" fill="#4b5563">GPT-4o</text>
+<rect x="121" y="356" width="45" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="143" y="366" text-anchor="middle" font-size="7.5" fill="#4b5563">4o Mini</text>
+<rect x="169" y="356" width="50" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="194" y="366" text-anchor="middle" font-size="7.5" fill="#4b5563">4.1 Mini</text>
+<rect x="222" y="356" width="50" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="247" y="366" text-anchor="middle" font-size="7.5" fill="#4b5563">4.1 Nano</text>
+<rect x="78" y="376" width="40" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="98" y="386" text-anchor="middle" font-size="7.5" fill="#4b5563">5 Mini</text>
+<rect x="121" y="376" width="45" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="143" y="386" text-anchor="middle" font-size="7.5" fill="#4b5563">GPT-5.4</text>
+<rect x="169" y="376" width="50" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="194" y="386" text-anchor="middle" font-size="7.5" fill="#4b5563">5.4 Mini</text>
+<rect x="222" y="376" width="50" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="247" y="386" text-anchor="middle" font-size="7.5" fill="#4b5563">5.4 Nano</text>
+<text x="18" y="407" font-size="8" font-weight="bold" fill="#1a1a1a">Google:</text>
+<rect x="78" y="396" width="55" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="105" y="406" text-anchor="middle" font-size="7.5" fill="#4b5563">2.0 Flash</text>
+<rect x="136" y="396" width="55" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="163" y="406" text-anchor="middle" font-size="7.5" fill="#4b5563">2.5 Flash</text>
+<rect x="194" y="396" width="40" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="214" y="406" text-anchor="middle" font-size="7.5" fill="#4b5563">2.5 FL</text>
+<rect x="237" y="396" width="45" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="259" y="406" text-anchor="middle" font-size="7.5" fill="#4b5563">2.5 Pro</text>
+<rect x="78" y="416" width="45" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="100" y="426" text-anchor="middle" font-size="7.5" fill="#4b5563">3 Flash</text>
+<rect x="126" y="416" width="45" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="148" y="426" text-anchor="middle" font-size="7.5" fill="#4b5563">3.1 Pro</text>
+<rect x="174" y="416" width="40" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="194" y="426" text-anchor="middle" font-size="7.5" fill="#4b5563">3.1 FL</text>
+<rect x="78" y="436" width="65" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="110" y="446" text-anchor="middle" font-size="7.5" fill="#4b5563">Gemma 3 27B</text>
+<rect x="146" y="436" width="65" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="178" y="446" text-anchor="middle" font-size="7.5" fill="#4b5563">Gemma 4 31B</text>
+<text x="18" y="467" font-size="8" font-weight="bold" fill="#1a1a1a">Open-wt:</text>
+<rect x="78" y="456" width="55" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="105" y="466" text-anchor="middle" font-size="7.5" fill="#4b5563">LLaMA 70B</text>
+<rect x="136" y="456" width="35" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="153" y="466" text-anchor="middle" font-size="7.5" fill="#4b5563">DS V3</text>
+<rect x="174" y="456" width="35" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="191" y="466" text-anchor="middle" font-size="7.5" fill="#4b5563">DS R1</text>
+<rect x="212" y="456" width="50" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="237" y="466" text-anchor="middle" font-size="7.5" fill="#4b5563">Qwen 72B</text>
+<rect x="265" y="456" width="45" height="15" rx="7.5" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="287" y="466" text-anchor="middle" font-size="7.5" fill="#4b5563">Kimi K2</text>
+<rect x="8" y="500" width="310" height="134" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="18" y="516" font-size="10" font-weight="bold" fill="#1a1a1a">Coding of explanations</text>
+<line x1="18" y1="522" x2="308" y2="522" stroke="#e5e7eb" stroke-width="0.6"/>
+<g transform="translate(17.8,537) scale(0.17)">
+  <line x1="60" y1="7" x2="60" y2="22" stroke="#5a5f66" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="60" cy="7" r="3.4" fill="#b9bec6"/>
+  <rect x="24" y="22" width="72" height="58" rx="14" ry="14" fill="#e2e4e8" stroke="#41454c" stroke-width="1.6"/>
+  <rect x="14" y="42" width="11" height="20" rx="4" fill="#b9bec6"/>
+  <rect x="95" y="42" width="11" height="20" rx="4" fill="#b9bec6"/>
+  <circle cx="46" cy="47" r="6.2" fill="#25272d"/>
+  <circle cx="48" cy="45" r="1.9" fill="#ffffff"/>
+  <circle cx="74" cy="47" r="6.2" fill="#25272d"/>
+  <circle cx="76" cy="45" r="1.9" fill="#ffffff"/>
+  <path d="M 47 63 C 52 68.5 68 68.5 73 63" fill="none" stroke="#41454c" stroke-width="1.9" stroke-linecap="round"/>
+  <rect x="54" y="80" width="12" height="8" fill="#b9bec6"/>
+  <rect x="20" y="88" width="80" height="28" rx="8" fill="#e2e4e8" stroke="#41454c" stroke-width="1.6"/>
+  <rect x="50" y="94" width="20" height="16" rx="3" fill="#f3f4f6" stroke="#41454c" stroke-width="1.1"/>
+  <line x1="55" y1="99" x2="65" y2="99" stroke="#41454c" stroke-width="1"/>
+  <line x1="55" y1="103" x2="65" y2="103" stroke="#41454c" stroke-width="1"/>
+</g>
+<text x="28" y="574" text-anchor="middle" font-size="7" fill="#6b7280">generates</text>
+<line x1="41" y1="556" x2="49" y2="556" stroke="#9ca3af" stroke-width="0.7"/><polygon points="49,556 44.9,557.8 44.9,554.2" fill="#9ca3af"/>
+<rect x="56" y="548" width="40" height="24" rx="3" fill="#ffffff" stroke="#e5e7eb" stroke-width="0.6"/>
+<rect x="53.5" y="545.5" width="40" height="24" rx="3" fill="#ffffff" stroke="#e5e7eb" stroke-width="0.6"/>
+<rect x="51" y="543" width="40" height="24" rx="3" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="71" y="557.5" text-anchor="middle" font-size="7" fill="#1a1a1a">Response</text>
+<line x1="99" y1="556" x2="107" y2="556" stroke="#9ca3af" stroke-width="0.7"/><polygon points="107,556 102.9,557.8 102.9,554.2" fill="#9ca3af"/>
+<g transform="translate(110.8,537) scale(0.17)">
+  <line x1="60" y1="7" x2="60" y2="22" stroke="#5a5f66" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="60" cy="7" r="3.4" fill="#b9bec6"/>
+  <rect x="24" y="22" width="72" height="58" rx="14" ry="14" fill="#e2e4e8" stroke="#41454c" stroke-width="1.6"/>
+  <rect x="14" y="42" width="11" height="20" rx="4" fill="#b9bec6"/>
+  <rect x="95" y="42" width="11" height="20" rx="4" fill="#b9bec6"/>
+  <circle cx="46" cy="47" r="6.2" fill="#25272d"/>
+  <circle cx="48" cy="45" r="1.9" fill="#ffffff"/>
+  <circle cx="74" cy="47" r="6.2" fill="#25272d"/>
+  <circle cx="76" cy="45" r="1.9" fill="#ffffff"/>
+  <path d="M 47 63 C 52 68.5 68 68.5 73 63" fill="none" stroke="#41454c" stroke-width="1.9" stroke-linecap="round"/>
+  <rect x="54" y="80" width="12" height="8" fill="#b9bec6"/>
+  <rect x="20" y="88" width="80" height="28" rx="8" fill="#e2e4e8" stroke="#41454c" stroke-width="1.6"/>
+  <rect x="50" y="94" width="20" height="16" rx="3" fill="#f3f4f6" stroke="#41454c" stroke-width="1.1"/>
+  <line x1="55" y1="99" x2="65" y2="99" stroke="#41454c" stroke-width="1"/>
+  <line x1="55" y1="103" x2="65" y2="103" stroke="#41454c" stroke-width="1"/>
+</g>
+<text x="121" y="574" text-anchor="middle" font-size="7" fill="#6b7280">evaluates</text>
+<text x="121" y="583" text-anchor="middle" font-size="6.5" fill="#6b7280">(same model)</text>
+<line x1="134" y1="556" x2="141" y2="556" stroke="#9ca3af" stroke-width="0.7"/><polygon points="141,556 136.9,557.8 136.9,554.2" fill="#9ca3af"/>
+<rect x="143" y="532" width="165" height="16" rx="3" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="149" y="543.5" font-size="7.5" font-weight="bold" fill="#1a1a1a">Coherence</text>
+<text x="302" y="543.5" text-anchor="end" font-size="7" fill="#6b7280">0-100</text>
+<rect x="143" y="552" width="165" height="16" rx="3" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="149" y="563.5" font-size="7.5" font-weight="bold" fill="#1a1a1a">Acknowledgment of criteria</text>
+<text x="302" y="563.5" text-anchor="end" font-size="7" fill="#6b7280">0-100</text>
+<rect x="143" y="572" width="165" height="16" rx="3" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="149" y="583.5" font-size="7.5" font-weight="bold" fill="#1a1a1a">Brand reasoning</text>
+<text x="302" y="583.5" text-anchor="end" font-size="7" fill="#6b7280">yes / no</text>
+<text x="18" y="604" font-size="8" fill="#6b7280">Classification:</text>
+<text x="18" y="619" font-size="8.5" font-weight="bold" fill="#a51c30">Feature-only explanation = worse product, no brand reason</text>
+<circle cx="355" cy="39" r="13" fill="#f3f4f6" stroke="#d1d5db" stroke-width="0.7"/>
+<circle cx="355" cy="36" r="3.8" fill="#6b7280"/>
+<path d="M 349.5 47.5 C 349.5 41.5 360.5 41.5 360.5 47.5" fill="#6b7280"/>
+<rect x="376" y="14" width="310" height="44" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="0.7"/>
+<text x="384" y="32" font-size="9.5" fill="#1a1a1a" font-style="italic">"I’m looking for a reliable laptop for everyday work and browsing ..."</text>
+<text x="384" y="48" font-size="8" fill="#6b7280" font-style="italic">The rest of the prompt varies by condition:</text>
+<rect x="344" y="70" width="110" height="105" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="399" y="84" text-anchor="middle" font-size="8" font-weight="bold" fill="#1a1a1a">Open request</text>
+<text x="399" y="99" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">"Which product</text>
+<text x="399" y="109" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">do you recommend?"</text>
+<text x="399" y="150" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">25.0%</text>
+<text x="399" y="160" text-anchor="middle" font-size="6.5" fill="#6b7280">non-optimal, names shown</text>
+<text x="399" y="169" text-anchor="middle" font-size="6.5" fill="#6b7280">15.1% with names hidden</text>
+<rect x="460" y="70" width="110" height="105" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="515" y="84" text-anchor="middle" font-size="8" font-weight="bold" fill="#1a1a1a">Stated priorities</text>
+<text x="515" y="99" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">"I want something</text>
+<text x="515" y="109" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">reliable ..." and</text>
+<text x="515" y="119" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">"1. Battery life and</text>
+<text x="515" y="129" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">portability ..."</text>
+<text x="515" y="150" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">22.4% / 17.4%</text>
+<text x="515" y="160" text-anchor="middle" font-size="6.5" fill="#6b7280">vague request,</text>
+<text x="515" y="169" text-anchor="middle" font-size="6.5" fill="#6b7280">priorities in order</text>
+<rect x="576" y="70" width="110" height="105" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="631" y="84" text-anchor="middle" font-size="8" font-weight="bold" fill="#1a1a1a">Promotional training</text>
+<text x="631" y="99" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">Fine-tuning on</text>
+<text x="631" y="109" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">promotional examples</text>
+<text x="631" y="119" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">for one brand,</text>
+<text x="631" y="129" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">primary of eight runs</text>
+<text x="631" y="150" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">52.5%</text>
+<text x="631" y="160" text-anchor="middle" font-size="6.5" fill="#6b7280">recommend the trained</text>
+<text x="631" y="169" text-anchor="middle" font-size="6.5" fill="#6b7280">brand, from 32.0%</text>
+<rect x="344" y="181" width="110" height="105" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="399" y="195" text-anchor="middle" font-size="8" font-weight="bold" fill="#1a1a1a">Activation steering</text>
+<text x="399" y="210" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">The internal signal</text>
+<text x="399" y="220" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">changed at nine</text>
+<text x="399" y="230" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">strengths</text>
+<text x="399" y="261" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">57.4 to 78.4%</text>
+<text x="399" y="271" text-anchor="middle" font-size="6.5" fill="#6b7280">non-optimal</text>
+<text x="399" y="280" text-anchor="middle" font-size="6.5" fill="#6b7280">recommendations</text>
+<rect x="460" y="181" width="110" height="105" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="515" y="195" text-anchor="middle" font-size="8" font-weight="bold" fill="#1a1a1a">Exact requirements</text>
+<text x="515" y="210" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">People and models</text>
+<text x="515" y="220" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">given the same</text>
+<text x="515" y="230" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">product requirements</text>
+<text x="515" y="261" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">99.2%</text>
+<text x="515" y="271" text-anchor="middle" font-size="6.5" fill="#6b7280">of model decisions,</text>
+<text x="515" y="280" text-anchor="middle" font-size="6.5" fill="#6b7280">against 69.1% of people</text>
+<rect x="576" y="181" width="110" height="105" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="0.6"/>
+<text x="631" y="195" text-anchor="middle" font-size="8" font-weight="bold" fill="#1a1a1a">Consumer studies</text>
+<text x="631" y="210" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">Stated product</text>
+<text x="631" y="220" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">choices after a</text>
+<text x="631" y="230" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">recommendation, in</text>
+<text x="631" y="240" text-anchor="middle" font-size="7.5" fill="#4b5563" font-style="italic">static and live shopping</text>
+<text x="631" y="261" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">N = 3,164</text>
+<text x="631" y="271" text-anchor="middle" font-size="6.5" fill="#6b7280">participants across</text>
+<text x="631" y="280" text-anchor="middle" font-size="6.5" fill="#6b7280">four studies</text>
+<line x1="321" y1="77" x2="336" y2="77" stroke="#cdd2d9" stroke-width="0.7" stroke-dasharray="3,3"/><polygon points="336,77 332.3,78.6 332.3,75.4" fill="#cdd2d9"/>
+<line x1="321" y1="223" x2="336" y2="223" stroke="#cdd2d9" stroke-width="0.7" stroke-dasharray="3,3"/><polygon points="336,223 332.3,224.6 332.3,221.4" fill="#cdd2d9"/>
+<line x1="516" y1="289" x2="516" y2="307" stroke="#9ca3af" stroke-width="0.9"/><polygon points="516,307 514.2,302.9 517.8,302.9" fill="#9ca3af"/>
+<g transform="translate(338,329) scale(0.28)">
+  <line x1="60" y1="7" x2="60" y2="22" stroke="#5a5f66" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="60" cy="7" r="3.4" fill="#b9bec6"/>
+  <rect x="24" y="22" width="72" height="58" rx="14" ry="14" fill="#e2e4e8" stroke="#41454c" stroke-width="1.6"/>
+  <rect x="14" y="42" width="11" height="20" rx="4" fill="#b9bec6"/>
+  <rect x="95" y="42" width="11" height="20" rx="4" fill="#b9bec6"/>
+  <circle cx="46" cy="47" r="6.2" fill="#25272d"/>
+  <circle cx="48" cy="45" r="1.9" fill="#ffffff"/>
+  <circle cx="74" cy="47" r="6.2" fill="#25272d"/>
+  <circle cx="76" cy="45" r="1.9" fill="#ffffff"/>
+  <path d="M 47 63 C 52 68.5 68 68.5 73 63" fill="none" stroke="#41454c" stroke-width="1.9" stroke-linecap="round"/>
+  <rect x="54" y="80" width="12" height="8" fill="#b9bec6"/>
+  <rect x="20" y="88" width="80" height="28" rx="8" fill="#e2e4e8" stroke="#41454c" stroke-width="1.6"/>
+  <rect x="50" y="94" width="20" height="16" rx="3" fill="#f3f4f6" stroke="#41454c" stroke-width="1.1"/>
+  <line x1="55" y1="99" x2="65" y2="99" stroke="#41454c" stroke-width="1"/>
+  <line x1="55" y1="103" x2="65" y2="103" stroke="#41454c" stroke-width="1"/>
+</g>
+<rect x="376" y="310" width="310" height="168" rx="4" fill="#faf2f3" stroke="#d9a0a9" stroke-width="0.8"/>
+<text x="384" y="328" font-size="9.5" fill="#a51c30" font-weight="bold">"The ASUS VivoBook 15 is the best option as it offers</text>
+<text x="384" y="342" font-size="8.5" fill="#1a1a1a" font-style="italic">a blend of high performance and reliability. ... Its vibrant</text>
+<text x="384" y="356" font-size="8.5" fill="#1a1a1a" font-style="italic">FHD OLED display and solid 7-hour battery life make it ideal</text>
+<text x="384" y="370" font-size="8.5" fill="#1a1a1a" font-style="italic">for everyday usage ..."</text>
+<text x="678" y="370" text-anchor="end" font-size="7.5" fill="#6b7280">GPT-4o</text>
+<line x1="384" y1="381" x2="678" y2="381" stroke="#eed6da" stroke-width="0.6"/>
+<text x="384" y="398" font-size="9" fill="#a51c30" font-weight="bold">Feature-only explanation:</text>
+<text x="384" y="414" font-size="8.5" fill="#1a1a1a">Product A has superior display (2.8K OLED),</text>
+<text x="384" y="429" font-size="8.5" fill="#1a1a1a">longer battery (12h), and lower price ($480).</text>
+<text x="384" y="444" font-size="8.5" fill="#1a1a1a">Cited attributes are matched or beaten by product A.</text>
+<text x="384" y="463" font-size="9" fill="#a51c30" font-weight="bold">74% of worse recommendations give no brand reason</text>
+<line x1="321" y1="394" x2="336" y2="394" stroke="#cdd2d9" stroke-width="0.7" stroke-dasharray="3,3"/><polygon points="336,394 332.3,395.6 332.3,392.4" fill="#cdd2d9"/>
+<line x1="516" y1="481" x2="516" y2="499" stroke="#9ca3af" stroke-width="0.9"/><polygon points="516,499 514.2,494.9 517.8,494.9" fill="#9ca3af"/>
+<rect x="344" y="502" width="344" height="130" rx="5" fill="#faf2f3" stroke="#d9a0a9" stroke-width="0.8"/>
+<text x="354" y="526" font-size="12" font-weight="bold" fill="#a51c30">Brand names change recommendations</text>
+<text x="354" y="552" font-size="8.5" fill="#1a1a1a">Non-optimal recommendations in all 30 models;</text>
+<text x="354" y="568" font-size="8.5" fill="#1a1a1a">brand names raise the rate in 29 of 30</text>
+<line x1="321" y1="567" x2="336" y2="567" stroke="#cdd2d9" stroke-width="0.7" stroke-dasharray="3,3"/><polygon points="336,567 332.3,568.6 332.3,565.4" fill="#cdd2d9"/>
+</svg>

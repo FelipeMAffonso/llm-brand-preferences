@@ -1,0 +1,365 @@
+{
+ "rows": 627491,
+ "conditions": [
+  "anti_brand_negative_experience",
+  "anti_brand_prefer_unknown",
+  "anti_brand_rejection",
+  "baseline",
+  "baseline_badges_removed",
+  "baseline_brand_blind",
+  "baseline_description_minimal",
+  "baseline_expert_persona",
+  "baseline_optimal_first",
+  "baseline_price_equalized",
+  "baseline_price_premium",
+  "baseline_review_equalized",
+  "baseline_review_inverted",
+  "control_all_familiar",
+  "control_brand_reversal",
+  "control_comprehension",
+  "control_fictional_brands",
+  "mechanism_attribute_swap",
+  "mechanism_brand_blind",
+  "mechanism_description_minimal",
+  "mechanism_price_premium",
+  "mechanism_review_equalized",
+  "preference_constrained",
+  "preference_explicit",
+  "preference_override",
+  "preference_vague",
+  "preference_weighted",
+  "utility_constrained",
+  "utility_explicit",
+  "utility_override",
+  "utility_vague",
+  "utility_weighted"
+ ],
+ "blind_of": {
+  "baseline": "baseline_brand_blind",
+  "mechanism": "mechanism_brand_blind"
+ },
+ "per_level": {
+  "anti_brand_negative_experience": {
+   "shown": 36.84803921568628,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "anti_brand_prefer_unknown": {
+   "shown": 1.6862745098039216,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "anti_brand_rejection": {
+   "shown": 28.79901960784314,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "baseline": {
+   "shown": 25.03306716308235,
+   "shown_n": 20413,
+   "hidden": 15.088235294117647,
+   "hidden_n": 20400
+  },
+  "baseline_badges_removed": {
+   "shown": 24.901960784313726,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "baseline_description_minimal": {
+   "shown": 4.995098039215686,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "baseline_expert_persona": {
+   "shown": 7.5,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "baseline_optimal_first": {
+   "shown": 18.833333333333332,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "baseline_price_equalized": {
+   "shown": 23.931372549019606,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "baseline_price_premium": {
+   "shown": 73.69117647058823,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "baseline_review_equalized": {
+   "shown": 24.416666666666668,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "baseline_review_inverted": {
+   "shown": 9.593137254901961,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "control_all_familiar": {
+   "shown": 0.030864197530864196,
+   "shown_n": 3240,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "control_brand_reversal": {
+   "shown": 0.9313725490196079,
+   "shown_n": 12240,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "control_comprehension": {
+   "shown": 0.7892156862745098,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "control_fictional_brands": {
+   "shown": 0.7941565763027599,
+   "shown_n": 20399,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "mechanism_attribute_swap": {
+   "shown": 17.754901960784313,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "mechanism_description_minimal": {
+   "shown": 0.9313725490196079,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "mechanism_price_premium": {
+   "shown": 4.573529411764706,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "mechanism_review_equalized": {
+   "shown": 0.5735294117647058,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "preference_constrained": {
+   "shown": 1.2157458698955832,
+   "shown_n": 20399,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "preference_explicit": {
+   "shown": 0.36764705882352944,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "preference_override": {
+   "shown": 0.4117647058823529,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "preference_vague": {
+   "shown": 22.431372549019606,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "preference_weighted": {
+   "shown": 17.401960784313726,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "utility_constrained": {
+   "shown": 0.7156862745098039,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "utility_explicit": {
+   "shown": 0.8431372549019608,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "utility_override": {
+   "shown": 0.8480392156862745,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "utility_vague": {
+   "shown": 12.632352941176471,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  },
+  "utility_weighted": {
+   "shown": 6.867647058823529,
+   "shown_n": 20400,
+   "hidden": null,
+   "hidden_n": 0
+  }
+ },
+ "per_category_baseline": {
+  "backpacks": {
+   "shown": 6.666666666666667,
+   "shown_n": 600,
+   "hidden": 5.333333333333333,
+   "hidden_n": 600,
+   "name_effect": 1.333333333333334
+  },
+  "blenders": {
+   "shown": 23.333333333333332,
+   "shown_n": 600,
+   "hidden": 9.5,
+   "hidden_n": 600,
+   "name_effect": 13.833333333333332
+  },
+  "cameras": {
+   "shown": 14.0,
+   "shown_n": 600,
+   "hidden": 4.666666666666667,
+   "hidden_n": 600,
+   "name_effect": 9.333333333333332
+  },
+  "coffee_makers": {
+   "shown": 58.521787093215664,
+   "shown_n": 1813,
+   "hidden": 49.22222222222222,
+   "hidden_n": 1800,
+   "name_effect": 9.299564870993443
+  },
+  "electric_toothbrushes": {
+   "shown": 13.333333333333334,
+   "shown_n": 600,
+   "hidden": 4.666666666666667,
+   "hidden_n": 600,
+   "name_effect": 8.666666666666668
+  },
+  "external_ssds": {
+   "shown": 4.833333333333333,
+   "shown_n": 600,
+   "hidden": 3.1666666666666665,
+   "hidden_n": 600,
+   "name_effect": 1.6666666666666665
+  },
+  "headphones": {
+   "shown": 55.611111111111114,
+   "shown_n": 1800,
+   "hidden": 37.388888888888886,
+   "hidden_n": 1800,
+   "name_effect": 18.22222222222223
+  },
+  "keyboards": {
+   "shown": 1.0,
+   "shown_n": 600,
+   "hidden": 1.1666666666666667,
+   "hidden_n": 600,
+   "name_effect": -0.16666666666666674
+  },
+  "laptops": {
+   "shown": 29.22222222222222,
+   "shown_n": 1800,
+   "hidden": 19.27777777777778,
+   "hidden_n": 1800,
+   "name_effect": 9.944444444444443
+  },
+  "monitors": {
+   "shown": 13.0,
+   "shown_n": 600,
+   "hidden": 10.0,
+   "hidden_n": 600,
+   "name_effect": 3.0
+  },
+  "portable_speakers": {
+   "shown": 34.833333333333336,
+   "shown_n": 600,
+   "hidden": 7.666666666666667,
+   "hidden_n": 600,
+   "name_effect": 27.166666666666668
+  },
+  "robot_vacuums": {
+   "shown": 13.666666666666666,
+   "shown_n": 600,
+   "hidden": 11.666666666666666,
+   "hidden_n": 600,
+   "name_effect": 2.0
+  },
+  "running_shoes": {
+   "shown": 16.22222222222222,
+   "shown_n": 1800,
+   "hidden": 7.055555555555555,
+   "hidden_n": 1800,
+   "name_effect": 9.166666666666666
+  },
+  "smartphones": {
+   "shown": 20.944444444444443,
+   "shown_n": 1800,
+   "hidden": 10.11111111111111,
+   "hidden_n": 1800,
+   "name_effect": 10.833333333333332
+  },
+  "smartwatches": {
+   "shown": 13.666666666666666,
+   "shown_n": 600,
+   "hidden": 4.5,
+   "hidden_n": 600,
+   "name_effect": 9.166666666666666
+  },
+  "tablets": {
+   "shown": 42.833333333333336,
+   "shown_n": 600,
+   "hidden": 21.833333333333332,
+   "hidden_n": 600,
+   "name_effect": 21.000000000000004
+  },
+  "tvs": {
+   "shown": 18.61111111111111,
+   "shown_n": 1800,
+   "hidden": 5.166666666666667,
+   "hidden_n": 1800,
+   "name_effect": 13.444444444444443
+  },
+  "water_bottles": {
+   "shown": 7.166666666666667,
+   "shown_n": 600,
+   "hidden": 5.333333333333333,
+   "hidden_n": 600,
+   "name_effect": 1.833333333333334
+  },
+  "wireless_earbuds": {
+   "shown": 19.833333333333332,
+   "shown_n": 1800,
+   "hidden": 11.38888888888889,
+   "hidden_n": 1800,
+   "name_effect": 8.444444444444443
+  },
+  "wireless_routers": {
+   "shown": 5.166666666666667,
+   "shown_n": 600,
+   "hidden": 4.666666666666667,
+   "hidden_n": 600,
+   "name_effect": 0.5
+  }
+ }
+}
