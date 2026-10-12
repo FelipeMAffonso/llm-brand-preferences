@@ -17,8 +17,7 @@ Four pre-registered studies (N = 3,164) tested whether people follow the recomme
 This repository holds the code that ran the experiments, the analysis and figure code, the anonymised data and
 instruments of the human studies, the additional model comparisons, and the aggregated results the paper reports.
 The product dataset of 627,491 responses (2.4 GB) is deposited at Zenodo together with an archived copy of this
-repository: <https://doi.org/10.5281/zenodo.19927067>. An interactive explorer of the data is at
-<https://felipemaffonso.github.io/spec-resistance-companion/>.
+repository: <https://doi.org/10.5281/zenodo.19927067>.
 
 ## Repository structure
 
